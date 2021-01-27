@@ -1,0 +1,29 @@
+.grupoProducto-cuerpo {
+  display: flow-root;
+  align-items: center;
+  justify-content: center;
+  /*animation: grupoProducto-cuerpo infinite 20s linear;*/
+}
+.grupo-unstyled {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  align-content: center;
+  list-style-type: none;
+}
+
+@media (max-width: 750px) {
+  .grupo-unstyled {
+    display: grid;
+    grid-template-columns: 350px;
+    align-items: center;
+  }
+}
+
+/*@keyframes grupoProducto-cuerpo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/

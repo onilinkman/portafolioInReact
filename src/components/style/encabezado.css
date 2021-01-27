@@ -1,0 +1,27 @@
+.encabezado-body {
+  display: block;
+  align-content: center;
+  background: black;
+}
+
+.encabezado-link {
+  display: flex;
+  font-style: none;
+  text-decoration: none;
+  flex-direction: row;
+  align-content: center;
+}
+
+.encabezado-image {
+  height: 100px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.encabezado-nombre {
+  display: grid;
+  font-style: italic;
+  font-size: 25px;
+  color: blanchedalmond;
+  align-content: center;
+}
